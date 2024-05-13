@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire PC</title>
+    <style>
+        .styled-button {
+            background-color: #4CAF50; /* Couleur de fond */
+            color: white; /* Couleur du texte */
+            padding: 10px 20px; /* Espacement intérieur (haut/bas, gauche/droite) */
+            font-size: 16px; /* Taille de la police */
+            border: none; /* Supprime le bord */
+            border-radius: 5px; /* Coins arrondis */
+            cursor: pointer; /* Curseur pointeur au survol */
+        }
+
+        .styled-button:hover {
+            background-color: #45a049; /* Couleur de fond au survol */
+        }
+
+
+    </style>
+</head>
+<body>
+
+<br>
+
+<form action="script3.php" method="POST">
+    <table>
+        <tr>
+            <td><label for="nombre_pc">Nombre d'ordinateurs :</label></td>
+            <td><input type="text" id="nombre_pc" name="n"  required></td>
+        </tr>
+        <tr>
+            <td><label for="type_pc">Type d'ordinateurs :</label></td>
+            <td><input type="text" id="type_pc" name="type"  required></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button class="styled-button" type="submit">Soumettre</button></td>
+
+        </tr>
+    </table>
+    
+</form>
+
+</body>
+</html>
