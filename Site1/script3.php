@@ -20,8 +20,8 @@ Si la quantité dépasse 6 PC, il y a remise de 5%
 
 */
 
-$n = $_GET['n'];
-$type = $_GET['type'];
+$n = $_POST['n'];
+$type = $_POST['type'];
 $total = 0;
 
 if($type=="i3") {
