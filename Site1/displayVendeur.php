@@ -39,7 +39,7 @@ try {
                 <th>Prénom</th>
                 <th>Téléphone</th>
                 <th>Mot de passe</th>
-                <th>Action</th>
+                <th colspan="2">Action</th>
                 
             </tr>
         
@@ -59,6 +59,14 @@ try {
                             <a href="deleteVendeur.php?id=<?= $vendeur['idVendeur'] ?>">
                         
                             <img src="img\delete.jpeg" alt="Supprimer" style="width:25px;height:25px;">
+                        
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="updateForm.php?idVendeur=<?= $vendeur['idVendeur'] ?>">
+                        
+                            <img src="img\update.png" alt="Modifier" style="width:25px;height:25px;">
                         
                             </a>
                         </td>
